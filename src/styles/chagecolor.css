@@ -1,0 +1,24 @@
+.color{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 10rem;
+    margin-top: 25px;
+    /* background-color: red; */
+
+}
+input{
+    height: 2rem;
+    width: 20rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
